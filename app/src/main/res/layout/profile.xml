@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="79dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/dir_name"
+        android:layout_width="113dp"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="18dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/edit_profile"
+        android:layout_width="102dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="Edit Profile"
+        android:textSize="20dp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="92dp"
+        android:layout_height="23dp"
+        android:text=""
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="91dp"
+        android:layout_height="25dp"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="96dp"
+        android:layout_height="25dp"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="303dp" />
+</android.support.constraint.ConstraintLayout>
